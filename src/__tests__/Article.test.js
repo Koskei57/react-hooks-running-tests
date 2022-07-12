@@ -9,3 +9,9 @@ test("displays the text 'please pass this test'", () => {
 
   expect(screen.queryByText("please pass this test")).toBeInTheDocument();
 });
+
+
+// function  article(props){
+// return(<Article>please pass this test</Article>)
+// }
+//  export default article;
